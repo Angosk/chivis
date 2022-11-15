@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--*Custom CSS-->
+    <link rel="stylesheet" href="./style.css">
+    <title>calculo</title>
+</head>
+
+<body>
+    <h1>Calculadora de entero</h1>
+    <div class="containerData">
+        <div>
+            <p>real</p>
+            <input id="real" type="number"></input>
+        </div>
+        <div>
+            <p>aux</p>
+            <input id="aux" type="number"></input>
+        </div>
+        <!-- <div>
+            <p>anual_mas_5</p>
+            <input id="anual_mas_5" type="number"></input>
+        </div> -->
+        <div>
+            <p>mensual</p>
+            <input id="mensual" type="number"></input>
+        </div>
+        <div>
+            <p>iva</p>
+            <input id="iva" type="number"></input>
+        </div>
+        <div>
+            <p>mes_mas_iva</p>
+            <input id="mes_mas_iva" type="number"></input>
+        </div>
+        <div>
+            <p>dif_real-aux</p>
+            <input id="dif_real-aux" type="number"></input>
+        </div>
+    </div>
+    <button onclick="calcular()">calcular</button>
+    <button onclick="recalcular()">Re-calcular</button>
+
+</body>
+<script src="./main.js"></script>
+
+</html>

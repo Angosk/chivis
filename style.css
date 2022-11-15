@@ -1,0 +1,29 @@
+body {
+    background-color: black;
+}
+h1 {
+    color: whitesmoke;
+}
+.containerData {
+    display: flex;
+    flex-direction: row;
+}
+
+.containerData p {
+    font-size: large;
+    text-align: center;
+    background: gray;
+    color: whitesmoke;
+    border: 1px solid bisque;
+    margin: 5px;
+}
+
+.containerData input {
+    margin: 5px;
+    font-size: large;
+    text-align: center;
+}
+button {
+    margin: 10px;
+    font-size: large;
+}
